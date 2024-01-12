@@ -123,7 +123,7 @@ console.log(name_);
 // Heap Memory :- The heap is a region of memory used for dynamic memory allocation.
 //                Non primitive or Objects and complex data structures (arrays, objects) are stored in the heap.
 
-// whenever we create an object or non primitive datatype .. that material or information store in heap memory and the variable name stores in stack memory .. whenever we change the particular attribute in the object .. that always changes. because whenever we change the objects detail by creating new variale or objects. which  targets the orginal data in heap memory.
+// whenever we create an object or non primitive datatype .. that material or information store in heap memory and the variable name stores in stack memory .. whenever we change the value of  particular attribute in the object .. that always changes. because whenever we change the objects detail by creating new variale or objects. which  targets the orginal data in heap memory.
 
 //  eg.
 

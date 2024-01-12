@@ -21,7 +21,7 @@ console.log(num1.toString());
 // 2> toString().length;
 console.log(num1.toString().length);
 
-// 3> toFixed(); -- it put 0s after the digit 1,2,3,
+// 3> toFixed(); -- it put 0s after the decimal point.
 console.log(num1.toFixed(1));
 console.log(num1.toFixed(2));
 
