@@ -1,4 +1,4 @@
-// Here we talk about the Number ;
+// Here we talk about the Numbers ;
 
 console.log("How to define a Number");
 
