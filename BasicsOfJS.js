@@ -1,4 +1,4 @@
-// how to print somethingg in javascript
+// how to print somethingg in javascripts
 console.log("love you abhishek");
 
 // constant keyword : A constant is a variable whose value cannot be changed after it's been declared.
