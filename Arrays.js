@@ -8,6 +8,9 @@ let emptyArray = [];
 // Creating an array with elements in different ways;
 let fruits = ['apple', 'banana', 'orange'];
 let MyArr = [0,234,234,23,43,23];
+
+// Creating by constructor
+
 let arr = new Array(2,23,4,5,2.2);
 
 
