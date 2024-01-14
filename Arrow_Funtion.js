@@ -1,3 +1,15 @@
+
+// why we use arrow function?
+
+// Conciseness: Arrow functions provide a more compact syntax for writing functions, especially when the function body consists of a single expression. This can make the code cleaner and easier to read.
+
+// No binding of arguments: Arrow functions do not have their own arguments object. This can be an advantage in some cases where you want to avoid confusion or unexpected behavior related to the arguments object.
+
+
+
+
+
+
 function chai2(){
     let user = "abhisehk ";
     console.log(this.user);
@@ -61,6 +73,34 @@ const createPerson = () => ({
 const person = createPerson();
 
 console.log(person);
+
+
+console.log("***************************************************************");
+
+function Example() {
+    this.value = 10;
+  
+    // Regular function
+    this.regularFunction = function() {
+      setTimeout(function() {
+        console.log(this.value); // undefined (in a browser) or throws an error (in Node.js)
+      }, 1000);
+    };
+  
+    // Arrow function
+    this.arrowFunction = () => {
+      setTimeout(() => {
+        console.log(this.value); // 10
+      }, 1000);
+    };
+  }
+  
+  const example = new Example();
+  example.regularFunction(); // Unwanted behavior
+  example.arrowFunction();   // Desired behavior
+  
+
+//   Lexical this: Arrow functions do not have their own this context; instead, they inherit the this value from the surrounding scope. This behavior can be advantageous in certain situations, especially when dealing with callback functions and avoiding the need for binding.
 
 
 
