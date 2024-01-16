@@ -68,6 +68,27 @@ newDate.toLocaleString('default'),
 }
 
 
+// ************************ IMPORTANT FOR PROJECT ***********************
+
+// we have an an method in DOM Or BOM(Browser Object Model) to display the current time and date .
+
+// setInterval(function() , delay);
+
+// function: The function to be executed at each interval.
+// delay: The time, in milliseconds, between each execution of the function.
+
+// const banner = document.querySelector("#clock");
+
+setInterval(function(){
+    let date = new Date();
+    console.log(date.toLocaleTimeString());
+    // banner.innerHTML = date.toLocaleTimeString();
+} , 1000);
+// here 1000 means 1sec
+
+
+
+
 
 
 
