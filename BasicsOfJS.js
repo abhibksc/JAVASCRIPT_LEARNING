@@ -1,5 +1,7 @@
-// how to print somethingg in javascripts
+
+console.log("how to print somethingg in javascripts");
 console.log("love you abhishek");
+
 
 // constant keyword : A constant is a variable whose value cannot be changed after it's been declared.
 
@@ -16,7 +18,7 @@ console.log(age);
 
 // Var Keyword :  var variables, which have function scope and can be accessed throughout the entire function.
 
-// print all the let veriable and constant together;
+console.log("print all the let veriable and constant together;");
 
 console.table({ name, age });
 
@@ -46,17 +48,25 @@ console.table({ name, age });
 // what type of datatype "null" , "undefined" , "Boolean" , "Number" , "BigInt" , "String" , "Symbol" , "Object" ?
 // ans......
 
+
+console.log("What Type Of null");
 console.log(typeof null);
+console.log("What Type Of undefined");
 console.log(typeof undefined); 
+console.log("What Type Of Boolean");
 console.log(typeof Boolean);
+console.log("What Type Of Number");
 console.log(typeof Number);
+console.log("What Type Of BigInt");
 console.log(typeof BigInt);
+console.log("What Type Of String");
 console.log(typeof String);
+console.log("What Type Of Symbol");
 console.log(typeof Symbol);
+console.log("What Type Of object");
 console.log(typeof object);
 
 
-// DataType Conversion : 
 
 console.log("DATATYPE Conversion");
 
@@ -64,20 +74,21 @@ let num = 33;
 
 console.log(num);
 
-// but num is in STring "";
-
+console.log("but num is in STring");
 let num2  = "33";
 
-// we want to find what type of num2 ;
-
+console.log("we want to find what type of num2 ;");
 let num3 = Number(num2);
 console.log(typeof(num3));
-console.log(num3);
 
-// if we change nums2 = "33abcds";
+console.log("console num 3" + num3);
+
+
+console.log(`if we change nums2 = "33abcds";`);
 console.log("AFTER CHanging");
 
 num2 = "33absc";
+console.log(typeof num2);
 num3 = Number(num2);
 
 console.log(typeof num3)
@@ -85,7 +96,7 @@ console.log(num3);
 
 // if the particular Data types is not in their condition it can gives NaN, 1 or 0, 
 // "33" ==>> 33 easily converatble ;
-// "33abc" ==>> Nan (not in number) ; but it is in number datatype ,, it cant gives any value;
+// "33abc" ==>> Nan (not a number) ; but it is in number datatype ,, it cant gives any value;
 // true ==>> 1 or 0;
 
 

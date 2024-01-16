@@ -1,7 +1,7 @@
 // Immediately Invoked Function Expression (IIFE)
 
 
-// basics
+console.log("basics");
 
 function chai() {
     console.log(`DB `);
@@ -20,8 +20,7 @@ chai();
 
 // The primary reason for using IIFE in JavaScript is to create a new scope for variables, helping to avoid polluting the global scope.
 
-// Creation of IIFE;
-
+console.log("Creation of IIFE;");
 (function chai7() {
     // It it called Named IIFE because it has name chai7;
     console.log(`chai is forever`);
@@ -31,15 +30,14 @@ chai();
 // localVar is not accessible here.. we alwasys use semicolon ; in the end of the IIFE;
 // It is used to avoid the declearation or variable or whatever pollution in the global scope .. 
 
-// with arrow function
+console.log("with arrow function");
 
 (() => {
     var localVar = "I am a local variable";
     console.log(localVar);
 })();
 
-// also one thing as a function;
-
+console.log("also one thing as a function;");
 ((name) => {
     console.log(`DB connected two ${name}`);
 })('abhishek');
