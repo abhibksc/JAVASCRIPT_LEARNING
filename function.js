@@ -114,6 +114,25 @@ function handleObjects(anyobject){
 handleObjects(user);
 
 
+// ************************************For Interview Purpose***********************************************************
+
+// function Statement
+
+// function Expression
+
+// function Declaration
+
+// Anonymous Function
+
+// Named Function Expression
+
+// Difference Between Parameters & Arguments
+
+// First Class Functions
+
+// Arrow function
+
+
 
 
   

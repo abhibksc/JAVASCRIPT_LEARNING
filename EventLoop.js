@@ -1,0 +1,2 @@
+// JavaScript is a syncronus single threaded language, It has one call Stack, and it can only do one thing at a time;
+// this call stack is present inside the js engine. and all the code of javaScript executed in the call stack space
