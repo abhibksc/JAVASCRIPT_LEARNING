@@ -179,6 +179,9 @@ mycoding.forEach(function(item){
     console.log(item.languageName);
 })
 
+
+// for each does not return any values; mind it;
+
   
 
 
